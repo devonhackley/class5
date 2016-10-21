@@ -58,7 +58,6 @@ function sumAndMultiply(a,b,c){ //eslint-disable-line
   var firstProd = multiply(a,b)[0];
   var totalProd = multiply(firstProd, c)[0];
   var arrayTotal = [totalSum, totalProd, a + ' and ' + b + ' and ' + c + ' sum to ' + totalSum + '.', 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + totalProd + '.'];
-  console.log(arrayTotal);
   return arrayTotal;
 }
 
