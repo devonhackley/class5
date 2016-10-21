@@ -11,6 +11,7 @@ Test this function by hand in the console to get it working, and when you think 
 function sum(a,b){ //eslint-disable-line
   var numSum = a + b;
   var arraySum = [numSum, 'The sum of ' + a + ' and ' + b + ' is ' + numSum + '.'];
+  console.log('Make sure it works');
   return arraySum;
 }
 
