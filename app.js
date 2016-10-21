@@ -11,6 +11,7 @@ Test this function by hand in the console to get it working, and when you think 
 function sum(a,b){ //eslint-disable-line
   var numSum = a + b;
   var arraySum = [numSum, 'The sum of ' + a + ' and ' + b + ' is ' + numSum + '.'];
+  console.log('Make sure it works');
   return arraySum;
 }
 
@@ -60,6 +61,7 @@ function sumAndMultiply(a,b,c){ //eslint-disable-line
   console.log(arrayTotal);
   return arrayTotal;
 }
+
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
 testSumAndMultiply(4,7,5);
